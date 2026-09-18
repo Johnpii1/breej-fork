@@ -1,5 +1,26 @@
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "MonumentGrotesk";
+  src: url("./assets/fonts/MonumentGrotesk-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TimesNewRoman";
+  src: url("./assets/fonts/times.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --font-monument: "MonumentGrotesk", sans-serif;
+  --font-times: "TimesNewRoman", serif;
 }
