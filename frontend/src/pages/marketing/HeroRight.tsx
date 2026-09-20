@@ -1,5 +1,5 @@
 
-export default function HeroText() {
+export default function HeroRight() {
   return (
     <section className="h-fit w-full rounded-b-lg bg-[#FAF9F6] text-white md:w-[24vw]">
       <div className="flex flex-row gap-2 rounded-tl-lg rounded-tr-lg bg-black px-2 py-3 md:px-3 md:py-5">
