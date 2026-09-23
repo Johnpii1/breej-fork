@@ -19,3 +19,34 @@
   --font-monument: "MonumentGrotesk", sans-serif;
   --font-times: "TimesNewRoman", serif;
 }
+
+.partner-marquee {
+  overflow: hidden;
+}
+
+.partner-marquee__track {
+  display: flex;
+  width: max-content;
+  animation: partner-marquee-scroll 18s linear infinite;
+}
+
+.partner-marquee:hover .partner-marquee__track {
+  animation-play-state: paused;
+}
+
+.partner-marquee__item {
+  flex: none;
+  margin-inline: 2rem;
+}
+
+@keyframes partner-marquee-scroll {
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .partner-marquee__track {
+    animation: none;
+  }
+}
