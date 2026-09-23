@@ -17,7 +17,7 @@ export default function Hero() {
       </div>
 
       {/* RIGHT SIDE */}
-      <div className="bg-amber-500 w-full max-w-155 flex items-center justify-center  " >
+      <div className=" w-full max-w-155 flex items-center justify-center  " >
         <HeroRight />
       </div>
     </section >

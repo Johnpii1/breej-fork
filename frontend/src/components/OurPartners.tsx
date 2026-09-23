@@ -9,12 +9,12 @@ export default function OurPartners() {
 
 
   return (
-    <section className="h-fit w-full overflow-hidden bg-[#003C3C] px-4 py-12 md:py-20">
+    <section className="h-fit w-full overflow-hidden bg-[#003C3C] px-4 py-12 md:py-20 gap-7 flex items-center justify-center flex-col ">
       <h2 className="py-2 text-center text-base md:text-[20px] font-medium text-white md:py-6  font-monument ">
         Our Partners
       </h2>
 
-      <div className="partner-marquee" aria-label="Our partners">
+      <div className="partner-marquee w-full " aria-label="Our partners">
         <div className="partner-marquee__track">
           {partner_data.map((partner, index) => (
             <span
