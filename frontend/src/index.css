@@ -1,6 +1,5 @@
 @import "tailwindcss";
 
-
 @font-face {
   font-family: "MonumentGrotesk";
   src: url("./assets/fonts/MonumentGrotesk-Regular.otf") format("opentype");
@@ -27,7 +26,7 @@
 .partner-marquee__track {
   display: flex;
   width: max-content;
-  animation: partner-marquee-scroll 18s linear infinite;
+  animation: partner-marquee-scroll 7s linear infinite;
 }
 
 .partner-marquee:hover .partner-marquee__track {
